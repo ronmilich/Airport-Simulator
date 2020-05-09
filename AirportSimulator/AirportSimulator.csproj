@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\airplaneD.png" />
+    <None Remove="Images\AirplaneL.png" />
+    <None Remove="Images\plain.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectLibrary\ProjectLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\airplaneD.png" />
+    <Resource Include="Images\AirplaneL.png" />
+    <Resource Include="Images\plain.png" />
+  </ItemGroup>
+
+</Project>

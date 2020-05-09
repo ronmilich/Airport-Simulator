@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 10,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 2 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": true,
+    "IsDepartureFirstStation": false
+  },
+  {
+    "Id": 1,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 2 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": true,
+    "IsDepartureFirstStation": false
+  },
+  {
+    "Id": 2,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 3 ],
+    "IsDepartureLastStation": true,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": false
+  },
+  {
+    "Id": 3,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 4 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": false
+  },
+  {
+    "Id": 4,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 5 ],
+    "IsDepartureLastStation": true,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": false
+  },
+  {
+    "Id": 5,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 6, 7 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": false
+  },
+  {
+    "Id": 6,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 8 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": true,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": true
+  },
+  {
+    "Id": 7,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 8 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": true,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": true
+  },
+  {
+    "Id": 8,
+    "IsOccupied": false,
+    "CurrentFlightId": null,
+    "NextStations": [ 4, 2 ],
+    "IsDepartureLastStation": false,
+    "IsLandingLastStation": false,
+    "IsLandingFirstStation": false,
+    "IsDepartureFirstStation": false
+  }
+]
